@@ -1,7 +1,7 @@
 {
     "name": "imscp/broadway-integration",
     "description": "Integrates Broadway in i-MSCP application",
-    "type": "library",
+    "type": "imscp-plugin",
     "license": "proprietary",
     "authors": [
         {
@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "imscp/composer-installers": "^1.0",
         "broadway/broadway": "^2.1",
         "broadway/broadway-saga": "^0.7.0",
         "zendframework/zend-servicemanager": "^3.4",
