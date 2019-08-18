@@ -1,7 +1,7 @@
 {
     "name": "imscp/broadway-integration",
     "description": "Integrate Broadway in i-MSCP application",
-    "type": "project",
+    "type": "library",
     "license": "proprietary",
     "authors": [
         {
