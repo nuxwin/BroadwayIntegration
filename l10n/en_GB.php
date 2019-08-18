@@ -9,6 +9,6 @@
 
 return [
     // BroadwayIntegration.php
-    'The BroadwayIntegration plugin requires i-MSCP version ≥ 1.5.3 (build 20181200800)' => 'The BroadwayIntegration plugin requires i-MSCP version ≥ 1.5.3 (build 20181200800)',
-    'The BroadwayIntegration plugin requires PHP ≥ 7.1'                                  => 'The BroadwayIntegration plugin requires PHP ≥ 7.1'
+    'The BroadwayIntegration plugin requires i-MSCP version ≥ 1.5.3 (build 20181200800).' => 'The BroadwayIntegration plugin requires i-MSCP version ≥ 1.5.3 (build 20181200800).',
+    'The BroadwayIntegration plugin requires PHP ≥ 7.1.'                                  => 'The BroadwayIntegration plugin requires PHP ≥ 7.1.'
 ];

@@ -127,7 +127,7 @@ class iMSCP_Plugin_BroadWayIntegration extends iMSCP_Plugin_Action
             || version_compare("$version-$build", '1.5.3-2018120800', '<')
         ) {
             set_page_message(
-                'The BroadwayIntegration plugin requires i-MSCP version ≥ 1.5.3 (build 20181200800)',
+                'The BroadwayIntegration plugin requires i-MSCP version ≥ 1.5.3 (build 20181200800).',
                 'error'
             );
             $event->stopPropagation();
@@ -139,7 +139,7 @@ class iMSCP_Plugin_BroadWayIntegration extends iMSCP_Plugin_Action
         }
 
         set_page_message(
-            'The BroadwayIntegration plugin requires PHP ≥ 7.1', 'error'
+            'The BroadwayIntegration plugin requires PHP ≥ 7.1.', 'error'
         );
         $event->stopPropagation();
     }
