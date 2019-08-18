@@ -5,16 +5,16 @@ Plugin for Broadway integration in i-MSCP application.
 # Requirements
 
 - i-MSCP Serie ≥ 1.5.3 (build 2018120800)
-- PHP ≥ 7.1 (cli SAPI)
+- PHP ≥ 7.1
 
 ## Installation
 
-1. Be sure that all requirements as stated in the requirements section are met
+1. Be sure that all requirements are met
 2. Upload and install the plugin through the plugin management interface
 
 ## Update
 
-1. Be sure that all requirements as stated in the requirements section are met
+1. Be sure that all requirements are met
 2. Upload the plugin through the plugin management interface
 
 ## License
