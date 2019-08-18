@@ -1,6 +1,6 @@
 # BroadwayIntegration plugin v1.0.0
 
-Plugin for Broadway integration in i-MSCP application.
+Plugin for [Broadway](https://github.com/broadway/broadway) integration in i-MSCP application.
 
 # Requirements
 
