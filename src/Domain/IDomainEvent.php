@@ -14,7 +14,7 @@ namespace iMSCP\Plugin\BroadWayIntegration\Domain;
 use Broadway\Serializer\Serializable;
 
 /**
- * Interface DomainEvent
+ * Interface IDomainEvent
  * @package iMSCP\Plugin\BroadWayIntegration\Domain
  */
 interface IDomainEvent extends Serializable

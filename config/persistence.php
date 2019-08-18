@@ -11,7 +11,7 @@ use Broadway\EventStore\ConcurrencyConflictResolver\WhitelistConcurrencyConflict
 
 return [
     // Event store database table
-    'event_store_table'             => 'broadway_integration_event_stream',
+    'event_store_table'             => 'broadway_integration_event_store',
 
     // Event Store - Concurrency conflict resolver configuration
     // See http://danielwhittaker.me/2014/09/29/handling-concurrency-issues-cqrs-event-sourced-system/

@@ -25,4 +25,4 @@ i-MSCP BroadWayIntegration plugin
 i-MSCP License <https://www.i-mscp.net/license-agreement.html>
 ```
 
-See the LICENSE file for further details.
+See the [LICENSE](./LICENSE) file for further details.

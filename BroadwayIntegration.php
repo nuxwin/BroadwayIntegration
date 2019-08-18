@@ -107,7 +107,7 @@ class iMSCP_Plugin_BroadWayIntegration extends iMSCP_Plugin_Action
     }
 
     /**
-     * Check for plugin requirements
+     * Check for plugin requirements.
      *
      * @param iMSCP_Events_Event $event
      * @return void
@@ -123,7 +123,7 @@ class iMSCP_Plugin_BroadWayIntegration extends iMSCP_Plugin_Action
         $version = $config['Version'];
         $build = $config['Build'];
 
-        if (!preg_match('/^\d+\.\d+\.\d+-\d{10}$/', "$version-$build")
+        if (!preg_match('/^(?:\d.){2}\d+-\d{10}$/', "$version-$build")
             || version_compare("$version-$build", '1.5.3-2018120800', '<')
         ) {
             set_page_message(

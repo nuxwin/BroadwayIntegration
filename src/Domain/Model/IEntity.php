@@ -21,7 +21,7 @@ interface IEntity
      * Compares this Entity to another Entity.
      *
      * @param IEntity $entity
-     * @return boolean TRUE if both Entity have the same identity.
+     * @return boolean TRUE if both Entities have the same identity.
      */
     public function sameIdentityAs(IEntity $entity): bool;
 }
